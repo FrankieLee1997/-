@@ -1,0 +1,114 @@
+.mui-content{
+    background: #EEEEEE;
+}
+header{
+    background: #F9F9F9;
+    color: #3D4144;
+    position: fixed;
+    top: 0;
+    font-family: "微软雅黑";
+    font-size: 1rem;
+    line-height: 2.9rem;
+    width: 100%;
+    height: 2.9rem;
+    padding: 0 0.5rem;
+    z-index: 999;
+    border-bottom: 1px solid #EEEEEE;
+    .iconfont{
+        font-size: 1.4rem;
+    }
+    .icon-peoplelist{
+        position: absolute;
+        right: 3.6rem;
+    }
+}
+.mui-slider{
+    margin-top: 2.9rem;
+    a{
+        font-size: 0.8rem;
+        span{
+            font-size: 1.4rem;
+            display: block;
+            margin-top: 0.3rem;
+            margin-bottom: -0.6rem;
+        }
+    }
+}
+.mui-segmented-control.mui-segmented-control-inverted{
+    background: #F9F9F9;
+    position: fixed;
+    top: 2.9rem;   
+    z-index: 999;
+}
+.mui-slider-group{
+    margin-top: 3.3rem;
+    .mui-slider-item{
+       position: absolute;
+    } 
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item{
+    color: #828282;
+    line-height: 1.8rem;
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active{
+    color: #FF5000;
+}
+.mui-active.mui-control-item{
+    color: #FF5000;
+}
+#item1{
+    width: 100%;
+    border-bottom: none;
+    .nocare{
+        width: 100%;
+        height: 17.5rem;
+        background: url(../img/wetao-nocare.png)no-repeat;
+        background-size: 100% 100%;
+        margin-bottom: 0.6rem;
+    }
+    .title{
+        position: relative;
+        width:100%; 
+        background: #FFFFFF; 
+        color:#9A9A9A; 
+        padding: 0.3rem 0.8rem;
+        border-bottom: 1px solid #EEEEEE;
+        font-size:0.8rem; 
+        
+        &:before,&:after{
+            clear: both;
+            content: '';
+            display: table;
+        }
+        .iconfont{
+            position: relative;
+            top: 0.1rem;
+            margin-right: 0.3rem;
+        }
+        span{
+            font-size: 0.7rem;
+        }
+    }
+    .care{
+        width: 100%;
+        img{
+            display: block;
+            border-bottom: 1px solid #EEEEEE;
+        }
+    }
+}
+#item2,#item3,#item4,#item5{
+    border-bottom: none;
+    background: #EEEEEE;
+    img{
+            display: block;
+            border-bottom: 1px solid #EEEEEE;
+        }
+}
+//底部留白
+div.space-bt{
+   display: block;
+    width: 100%;
+    height: 3rem;
+    background: #FFFFFF;
+}

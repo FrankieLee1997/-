@@ -1,0 +1,270 @@
+{
+	"status": 0,
+	"guess": [
+		{
+			"pic": "../img/home-love1.jpg",
+			"name": "【含配套资源】HTML5 App商业开发实战教程——基于WeX5可视化开发平台-马科HTML5 App开发工程师认证考试指定教材 (本书为一本)",
+			"price": "29.75",
+			"paynum": "172人付款",
+			"url": ""
+		}, {
+			"pic": "../img/home-love1.jpg",
+			"name": "【含配套资源】HTML5 App商业开发实战教程——基于WeX5可视化开发平台-马科HTML5 App开发工程师认证考试指定教材 (本书为一本)",
+			"price": "29.75",
+			"paynum": "172人付款",
+			"url": ""
+		}, {
+			"pic": "../img/home-love1.jpg",
+			"name": "【含配套资源】HTML5 App商业开发实战教程——基于WeX5可视化开发平台-马科HTML5 App开发工程师认证考试指定教材 (本书为一本)",
+			"price": "29.75",
+			"paynum": "172人付款",
+			"url": ""
+		}, {
+			"pic": "../img/home-love1.jpg",
+			"name": "【含配套资源】HTML5 App商业开发实战教程——基于WeX5可视化开发平台-马科HTML5 App开发工程师认证考试指定教材 (本书为一本)",
+			"price": "29.75",
+			"paynum": "172人付款",
+			"url": ""
+		}, {
+			"pic": "../img/home-love1.jpg",
+			"name": "【含配套资源】HTML5 App商业开发实战教程——基于WeX5可视化开发平台-马科HTML5 App开发工程师认证考试指定教材 (本书为一本)",
+			"price": "29.75",
+			"paynum": "172人付款",
+			"url": ""
+		}
+	],
+	"buluo": [
+		{
+			"pic": "../img/home-taobl1.jpg",
+			"url": ""
+		}, {
+			"pic": "../img/home-taobl2.jpg",
+			"url": ""
+		}, {
+			"pic": "../img/home-taobl3.jpg",
+			"url": ""
+		}, {
+			"pic": "../img/home-taobl4.jpg",
+			"url": ""
+		}
+	],
+	"goodshop": [
+		{
+			"url": "",
+			"title": "「今日推荐—1天3波」",
+			"number": "34.0万人正在逛店",
+			"img": [
+				{
+					"pic": "../img/home-good11.jpg",
+					"type": "big"
+				}, {
+					"pic": "../img/home-good12.jpg",
+					"type": "sm"
+				}, {
+					"pic": "../img/home-good13.jpg",
+					"type": "sm"
+				}
+			]
+		}, {
+			"url": "",
+			"title": "「吃吃吃」",
+			"number": "21.9万人正在逛店",
+			"img": [
+				{
+					"pic": "../img/home-good21.jpg",
+					"type": "big"
+				}, {
+					"pic": "../img/home-good22.jpg",
+					"type": "sm"
+				}, {
+					"pic": "../img/home-good23.jpg",
+					"type": "sm"
+				}
+			]
+		}, {
+			"url": "",
+			"title": "「一间老店—N个故事」",
+			"number": "18.5万人正在逛店",
+			"img": [
+				{
+					"pic": "../img/home-good31.jpg",
+					"type": "big"
+				}, {
+					"pic": "../img/home-good32.jpg",
+					"type": "sm"
+				}, {
+					"pic": "../img/home-good33.jpg",
+					"type": "sm"
+				}
+			]
+		}, {
+			"url": "",
+			"title": "「有腔调—超有设计感」",
+			"number": "10.5万人正在逛店",
+			"img": [
+				{
+					"pic": "../img/home-good41.jpg",
+					"type": "big"
+				}, {
+					"pic": "../img/home-good42.jpg",
+					"type": "sm"
+				}, {
+					"pic": "../img/home-good43.jpg",
+					"type": "sm"
+				}
+			]
+		}
+	],
+	"hotmarket": [
+		{
+			"url": "",
+			"size": "md1",
+			"pic": "../img/home-hotmarket1.png"
+		}, {
+			"url": "",
+			"size": "md1",
+			"pic": "../img/home-hotmarket2.jpg"
+		}, {
+			"url": "",
+			"size": "md1",
+			"pic": "../img/home-hotmarket3.jpg"
+		}, {
+			"url": "",
+			"size": "md1",
+			"pic": "../img/home-hotmarket4.jpg"
+		}, {
+			"url": "",
+			"size": "lg",
+			"pic": "../img/home-hotmarket5.jpg"
+		}, {
+			"url": "",
+			"size": "lg",
+			"pic": "../img/home-hotmarket6.jpg"
+		}, {
+			"url": "",
+			"size": "lg",
+			"pic": "../img/home-hotmarket7.jpg"
+		}, {
+			"url": "",
+			"size": "lg",
+			"pic": "../img/home-hotmarket8.jpg"
+		}, {
+			"url": "",
+			"size": "lg",
+			"pic": "../img/home-hotmarket9.jpg"
+		}, {
+			"url": "",
+			"size": "lg",
+			"pic": "../img/home-hotmarket10.jpg"
+		}
+	],
+	"special": [
+		{
+			"url": "",
+			"size": "md",
+			"pic": "../img/home-special1.png"
+		}, {
+			"url": "",
+			"size": "sm",
+			"pic": "../img/home-special2.jpg"
+		}, {
+			"url": "",
+			"size": "sm",
+			"pic": "../img/home-special3.jpg"
+		}, {
+			"url": "",
+			"size": "sm",
+			"pic": "../img/home-special4.jpg"
+		}, {
+			"url": "",
+			"size": "md",
+			"pic": "../img/home-special5.jpg"
+		}, {
+			"url": "",
+			"size": "sm",
+			"pic": "../img/home-special6.jpg"
+		}, {
+			"url": "",
+			"size": "sm",
+			"pic": "../img/home-special7.jpg"
+		}, {
+			"url": "",
+			"size": "sm",
+			"pic": "../img/home-special8.jpg"
+		}
+	],
+	"biguang": [
+		{
+			"url": "",
+			"size": "lg",
+			"pic": "../img/home-tm1.png"
+		}, {
+			"url": "",
+			"size": "lg",
+			"pic": "../img/home-tm2.png"
+		}, {
+			"url": "",
+			"size": "md1",
+			"pic": "../img/home-tm3.png"
+		}, {
+			"url": "",
+			"size": "md1",
+			"pic": "../img/home-tm4.jpg"
+		}, {
+			"url": "",
+			"size": "md1",
+			"pic": "../img/home-tm5.jpg"
+		}, {
+			"url": "",
+			"size": "md1",
+			"pic": "../img/home-tm6.jpg"
+		}
+	],
+	"sell": [
+		{
+			"url": "",
+			"size": "md",
+			"pic": "../img/home-cheap1.jpg"
+		}, {
+			"url": "",
+			"size": "sm",
+			"pic": "../img/home-cheap2.jpg"
+		}, {
+			"url": "",
+			"size": "sm",
+			"pic": "../img/home-cheap3.jpg"
+		}, {
+			"url": "",
+			"size": "sm",
+			"pic": "../img/home-cheap4.jpg"
+		}, {
+			"url": "",
+			"size": "md",
+			"pic": "../img/home-cheap5.jpg"
+		}, {
+			"url": "",
+			"size": "sm",
+			"pic": "../img/home-cheap6.png"
+		}, {
+			"url": "",
+			"size": "sm",
+			"pic": "../img/home-cheap7.jpg"
+		}, {
+			"url": "",
+			"size": "sm",
+			"pic": "../img/home-cheap8.jpg"
+		}
+	],
+	"qg": [
+		{
+			"url": "",
+			"pic": ""
+		}, {
+			"url": "",
+			"pic": ""
+		}, {
+			"url": "",
+			"pic": ""
+		}
+	]
+}

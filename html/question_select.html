@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="../css/icons-extra.css" />
+    	<link rel="stylesheet" type="text/css" href="../css/iconfont.css"/>
+    	<link rel="stylesheet" href="../css/commen.css" type="text/css"/>
+		<link rel="stylesheet" type="text/css" href="../css/question.css"/>
+    	<script src="../js/commen.js"></script>
+    	<style>
+    		.mui-action-back{
+    			position: relative;
+			  	top: 0.6rem;
+			  	left: 0.2rem;
+			  	display: inline-block;
+			  	width: 2rem;
+			  	height: 2rem;
+			  	border-radius: 50%;
+			  	overflow: hidden;
+    		}
+    		header form{
+    			margin: 0 0;
+    		}
+    		header form input{
+    			text-indent: 0.3rem;
+    		}
+    		.mui-icon{
+    			color: #5D636D;
+    			font-size: 1.6rem;
+    		}
+    		span{
+    			margin-right: 0.5rem;
+    			font-size: 1rem;
+    			line-height: 2.9rem;
+    		}
+    		.mui-content{
+    			background: #EEEEEE;
+    		}
+    		.hot-search{
+    			margin-top: 2.9rem;
+    		}
+    	</style>
+	</head>
+
+	<body>
+		<div class="mui-content">
+		 	<header>
+		    	<div class="mui-action-back" id="close">
+		    		<span class="mui-icon mui-icon-left-nav mui-pull-left"></span>
+		    	</div>
+		    	<form action="#" method="post">
+		    		<input type="text" value="" placeholder="搜索"/>	    		
+		    	</form>
+		    	<div class=" mui-pull-right">
+		    		<span>搜索</span>
+		    	</div>		    	
+		   </header>
+		   	<!--热门搜索-->
+		   	<section class="hot-search">
+		   		<div class="hot-title"><span></span>热门搜索</div>
+		   	</section>		   	
+		</div>
+		<script src="../js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init();
+//			var back = document.getElementById("close");
+//			back.addEventListener('tap',function(){
+//				mui.back();
+//			});
+		</script>
+	</body>
+
+</html>

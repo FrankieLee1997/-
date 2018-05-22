@@ -1,0 +1,194 @@
+@charset "utf-8";
+header {
+  color: #FFFFFF;
+  position: fixed;
+  top: 0;
+  font-family: "微软雅黑";
+  font-size: 0.9rem;
+  font-weight: 100;
+  line-height: 2.9rem;
+  width: 100%;
+  height: 2.9rem;
+  z-index: 999;
+  padding: 0 3%;
+}
+header .icon-message {
+  font-size: 1.4rem;
+}
+header.bg {
+  background: #007AFF;
+}
+section.personal {
+  position: relative;
+  width: 100%;
+  height: 9.2rem;
+  background: url(../img/mine-s1bg.png) no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+}
+section.personal .photo {
+  position: relative;
+  top: 2rem;
+  display: block;
+  margin: 0 auto;
+  width: 2.9rem;
+  height: 2.9rem;
+  background: url(../img/mine-s1photo.png) no-repeat;
+  background-size: 100% 100%;
+  border-radius: 50%;
+}
+section.personal .username {
+  position: relative;
+  top: 2.5rem;
+  color: #FFFFFF;
+  font-size: 0.95rem;
+  font-weight: 100;
+}
+section.buylist {
+  width: 100%;
+}
+section.buylist .buylist-title {
+  padding: 0 3%;
+  width: 100%;
+  line-height: 2.5rem;
+  border-bottom: 1px solid #DBDBDB;
+}
+section.buylist .buylist-title .title {
+  font-size: 0.88rem;
+  font-weight: 500;
+}
+section.buylist .buylist-title a {
+  color: #999999;
+  font-size: 0.7rem;
+}
+section.buylist .buylist-title a span {
+  font-size: 0.7rem;
+}
+section.buylist .buylist-classify {
+  width: 100%;
+  padding: 0.6rem 0;
+}
+section.buylist .buylist-classify:before,
+section.buylist .buylist-classify:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+section.buylist .buylist-classify li {
+  width: 20%;
+  text-align: center;
+  float: left;
+}
+section.buylist .buylist-classify li a {
+  color: #000000;
+  font-size: 0.6rem;
+}
+section.buylist .buylist-classify li a span {
+  color: #999999;
+  font-size: 1.4rem;
+  display: block;
+}
+div.space {
+  display: block;
+  width: 100%;
+  height: 0.6rem;
+  background: #F4F4F4;
+  border-top: 1px solid #DBDBDB;
+}
+section.necessary {
+  width: 100%;
+}
+section.necessary .necessary-title {
+  padding: 0 3%;
+  width: 100%;
+  line-height: 2.5rem;
+}
+section.necessary .necessary-title .title {
+  font-size: 0.88rem;
+  font-weight: 500;
+}
+section.necessary .necessary-title a {
+  color: #999999;
+  font-size: 0.7rem;
+}
+section.necessary .necessary-title a span {
+  font-size: 0.7rem;
+}
+section.necessary .necessary-list {
+  width: 100%;
+}
+section.necessary .necessary-list:before,
+section.necessary .necessary-list:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+section.necessary .necessary-list li {
+  float: left;
+  width: 25%;
+  text-align: center;
+  border-top: 1px solid #EEEEEE;
+  padding: 1.3rem 0;
+}
+section.necessary .necessary-list li a {
+  display: block;
+  color: #000000;
+  font-size: 0.75rem;
+}
+section.necessary .necessary-list li a span {
+  display: block;
+  line-height: 2rem;
+}
+section.necessary .necessary-list li a span.iconfont {
+  font-size: 1.8rem;
+}
+section.necessary .necessary-list li a span.red {
+  color: #E54746;
+}
+section.necessary .necessary-list li a span.blue {
+  color: #5CA1E4;
+}
+section.necessary .necessary-list li a span.yellow {
+  color: #F2A745;
+}
+section.necessary .necessary-list li a span.orange {
+  color: #FF691D;
+}
+section.necessary .necessary-list li a span.purple {
+  color: #5151CD;
+}
+section.necessary .necessary-list li.boder-right {
+  border-right: 1px solid #EEEEEE;
+}
+section.hudong {
+  width: 100%;
+}
+section.hudong .hudong-title {
+  padding: 0 3%;
+  width: 100%;
+  line-height: 2.5rem;
+}
+section.hudong .hudong-title .title {
+  font-size: 0.88rem;
+  font-weight: 500;
+}
+section.hudong .hudong-title a {
+  color: #999999;
+  font-size: 0.7rem;
+}
+section.hudong .hudong-title a span {
+  font-size: 0.7rem;
+}
+section.hudong .hudong-list span.color1 {
+  color: #FFA400;
+}
+section.hudong .hudong-list span.color2 {
+  color: #B2CA29;
+}
+div.space-bt {
+  display: block;
+  width: 100%;
+  height: 3rem;
+  background: #F4F4F4;
+  border-top: 1px solid #DBDBDB;
+}

@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>首页</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/mui.min.css" />
+		<link rel="stylesheet" href="../css/icons-extra.css" />
+		<link rel="stylesheet" type="text/css" href="../css/iconfont.css" />
+		<link rel="stylesheet" href="../css/iconfont1.css" />
+		<link rel="stylesheet" href="../css/commen.css" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="../css/category.css" />
+		<script src="../js/commen.js"></script>
+		<script type="text/javascript" src="../js/jquery-3.1.0.min.js" ></script>
+	</head>
+
+	<body>
+		<div class="mui-content">
+
+			<!--头部标题-->
+			<header class="mui-text-center">
+				<span><a href="home.html"><i class="iconfont icon-back"></i></a></span> 食品
+				<span class="iconfont icon-message"></span>
+				
+			</header>
+			<section class="secondtitle">
+				<div class="mui-scroll-wrapper">
+					<div class="mui-scroll">
+						<div class="ttt">
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--猜你喜欢-->
+			<section class="category">
+		<!--	<div class="category-title">猜你喜欢</div>-->
+				<ul class="category-list">
+					<li class="fleft mbottom">
+						<a href="">
+							<img src="../img/home-love1.jpg" />
+							<p class="mui-ellipsis-2">【含配套资源】HTML5 App商业开发实战教程——基于WeX5可视化开发平台-马科HTML5 App开发工程师认证考试指定教材 (本书为一本)</p>
+							<span><i>￥</i>29.75</span><span class="paynum">172人付款</span>
+
+						</a>
+					</li>
+					<li class="fright mbottom">
+						<a href="">
+							<img src="../img/home-love2.jpg" />
+							<p>夏季男鞋新款帆布鞋低帮纯白全黑色一脚蹬懒人鞋英伦潮流男士布鞋</p>
+							<span><i>￥</i>25.0</span><span class="paynum">2354人付款</span>
+						</a>
+					</li>
+					<li class="fleft mbottom">
+						<a href="">
+							<img src="../img/home-love3.jpg" />
+							<p>【天天超市】光明光明莫斯利安200g*6盒*4组常温酸奶量贩更优惠</p>
+							<span><i>￥</i>159.2</span><span class="paynum">465人付款</span>
+						</a>
+					</li>
+					<li class="fright mbottom">
+						<a href="">
+							<img src="../img/home-love4.jpg" />
+							<p>科智智能充电宝20000毫安冲蘋果5s6手机通用移动电源超薄正品专用</p>
+							<span><i>￥</i>59.8</span><span class="paynum">754人付款</span>
+						</a>
+					</li>
+					<li class="fleft mbottom">
+						<a href="">
+							<img src="../img/home-love5.jpg" />
+							<p>【天天】肯德基 炸鸡特权-吮指原味鸡（30份）</p>
+							<span><i>￥</i>189.0</span><span class="paynum">4565人付款</span>
+						</a>
+					</li>
+					<li class="fright mbottom">
+						<a href="">
+							<img src="../img/home-love6.jpg" />
+							<p>【天天超市】蒙牛 纯甄常温酸牛奶 200g*24盒 好酸奶不添加</p>
+							<span><i>￥</i>132.0</span><span class="paynum">111人付款</span>
+						</a>
+					</li>
+				</ul>
+			</section>
+			<!--更多...-->
+			<section class="bottom">
+				更多商品信息...
+			</section>
+		</div>
+	</body>
+	<script src="../js/mui.min.js"></script>
+	<script type="text/javascript">
+		var $=jQuery.noConflict();
+		mui.init(
+
+		);
+		mui('.mui-scroll-wrapper').scroll({
+			scrollX: true,
+			scrollY: false,
+			indicators: false,
+			deceleration: 0.05 //阻尼系数,系数越小滑动越灵敏
+		});
+		mui.ajax('../json/goodCategory.json', {
+			data: null,
+			dataType: 'json', //服务器返回json格式数据
+			type: 'get', //HTTP请求类型
+			timeout: 2000, //超时时间设置为10秒；
+			headers: {
+				'Content-Type': 'application/json'
+			},
+			success: function(data) {
+				
+				if(data.food.category.length!=0){
+					data.food.category.forEach(function(e,index){
+					$(".ttt").append("<a href='"+e.url+"'>"+e.name+"</a>");
+				});
+				}else{
+					
+				}
+			
+				
+			},
+			error: function(xhr, type, errorThrown) {
+				//异常处理；
+				console.log(type);
+			}
+		});
+	</script>
+
+</html>

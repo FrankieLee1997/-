@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>我的</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/mui.min.css"/>
+		<link rel="stylesheet" href="../css/icons-extra.css" />
+    	<link rel="stylesheet" type="text/css" href="../css/iconfont.css"/>
+    	<link rel="stylesheet" href="../css/commen.css" type="text/css"/>
+		<link rel="stylesheet" type="text/css" href="../css/mine.css"/>
+    	<script src="../js/commen.js"></script>
+	</head>
+
+	<body>
+		<div class="mui-content">
+			<!--头部固定-->
+		   	<header id="header">
+		   		<span class="shezhi">设置</span>
+		   		<span class="iconfont icon-message mui-pull-right"></span>
+		   	</header> 
+		   	<script type="text/javascript">
+		   	window.onscroll = function(){
+		   		if(document.body.scrollTop > 50){
+					document.getElementById("header").classList.add("bg");
+				}else{
+					document.getElementById("header").classList.remove("bg");
+				}
+		   	}			   	
+		   	</script>
+		   	<!--用户头像昵称-->
+		   	<section class="personal">
+		   		<span class="photo"></span>
+		   		<span class="username">丶雨落倾城大雪纷飞</span>
+		   	</section>
+		   	<!--我的订单-->
+		   	<section class="buylist">
+				<div class="buylist-title">
+					<span class="title">我的订单</span>
+					<a href="" class="mui-pull-right">查看全部订单<span class="iconfont icon-right"></span></a>
+				</div>
+				<ul class="buylist-classify">
+					<li><a href=""><span class="iconfont icon-pay"></span>待付款</a></li>
+					<li><a href=""><span class="iconfont icon-send"></span>待发货</a></li>
+					<li><a href=""><span class="iconfont icon-deliver"></span>待收货</a></li>
+					<li><a href=""><span class="iconfont icon-evaluate"></span>待评价</a></li>
+					<li><a href=""><span class="iconfont icon-refund"></span>退款/售后</a></li>
+				</ul>
+		   	</section>
+		 	<!--灰色分割区-->
+		 	<div class="space"></div>
+		 	<!--必备工具-->
+		 	<section class="necessary">
+		 		<div class="necessary-title">
+					<span class="title">必备工具</span>
+					<a href="" class="mui-pull-right">查看更多工具<span class="iconfont icon-right"></span></a>
+				</div>
+				<ul class="necessary-list">
+					<li class="boder-right"><a href=""><span class="iconfont icon-shoucangshangpin red"></span>收藏商品</a></li>
+					<li class="boder-right"><a href=""><span class="iconfont icon-wendang red"></span>当前订单</a></li>
+					<li class="boder-right"><a href=""><span class="iconfont icon-jiaguanzhu red"></span>我的收藏</a></li>
+					<li><a href=""><span class="iconfont icon-zuji red"></span>足迹</a></li>
+					<li class="boder-right"><a href=""><span class="iconfont icon-qiaquan blue"></span>卡券包</a></li>
+					<li class="boder-right"><a href=""><span class="iconfont icon-shape blue"></span>蚂蚁花呗</a></li>
+					<li class="boder-right"><a href=""><span class="iconfont icon-huiyuan yellow"></span>会员中心</a></li>
+					<li><a href=""><span class="iconfont icon-xiaomicopy yellow"></span>我的天使</a></li>
+					<li class="boder-right"><a href=""><span class="iconfont icon-qiandai orange"></span>我要换钱</a></li>
+					<li class="boder-right"><a href=""><span class="iconfont icon-gerenxinxishouji orange"></span>运营商服务</a></li>
+					<li class="boder-right"><a href=""><span class="iconfont icon-cncainiaoyizhan purple"></span>我的快递</a></li>
+					<li><a href=""><span class="iconfont icon-shijuedonghua purple"></span>主题换肤</a></li>
+				</ul>
+		 	</section>
+		 	<!--灰色分割区-->
+		 	<div class="space"></div>
+		 	<!--我的互动-->
+		 	<section class="hudong necessary">
+		 		<div class="hudong-title">
+					<span class="title">我的互动</span>					
+				</div>
+				<ul class="hudong-list necessary-list">
+					<li class="boder-right"><a href=""><span class="lg iconfont icon-quanzixuanzhong color1"></span>我的圈子</a></li>
+					<li class="boder-right"><a href=""><span class="iconfont icon-share6 color1"></span>我的分享</a></li>
+					<li class="boder-right"><a href=""><span class="iconfont icon-wen color2"></span>问大家</a></li>
+					<li><a href=""><span class="iconfont icon-pinglun color2"></span>提问</a></li>
+				</ul>
+		 	</section>
+		 	<!--底部留白-->
+		 	<div class="space-bt"></div>
+		</div>
+		<script src="../js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()			
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,30 @@
+@charset "utf-8";
+html{
+	font-family: "微软雅黑";
+}
+body{
+	background: #FFFFFF;
+}
+html,
+body,
+ul,
+li,
+p,
+form,
+input {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+.mui-content{
+    font-size: 0.8rem;
+    font-family: "微软雅黑";
+    background: #FFFFFF;
+}

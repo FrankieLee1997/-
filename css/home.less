@@ -1,0 +1,554 @@
+@charset "utf-8";
+//头部固定栏
+header{
+    position: fixed;
+    top: 0;
+    font-family: "微软雅黑";
+    width: 100%;
+    height: 2.9rem;
+    z-index: 999;
+    //background: linear-gradient(to left top,red,#F300BC);
+    background: #FF5000;
+    padding: 0 1%;
+    .header-scan{
+        position: relative;
+        top: -0.15rem;
+        display: inline-block;
+        width: 15%;
+        text-align: center;
+        color: white;
+        .iconfont{
+            font-size: 1.6rem;
+            font-weight: lighter;
+            display: block;
+            margin-bottom: -0.1rem;
+        }
+        .icon-label{
+            font-size: .6rem;
+        }
+    }
+    form{   
+        display: inline-block;
+        position: relative;
+        bottom: 30%;
+        width: 52%;
+        height: 70%;
+        margin: 1.3rem 2.2% 0;     
+        span.icon-search{
+            position: absolute;
+            top: .4rem;
+            left: .3rem;
+            font-size: 1.1rem;
+            z-index: 10;
+            color: red;
+        }
+        input[type='text']{
+            line-height: 21px;
+            width: 100%;
+            height: 100%;
+            margin-bottom: 0px;
+            padding: 10px 15px;
+            -webkit-user-select: text;
+            border: none;
+            border-radius: 0px;
+            outline: none;
+            background-color: #fff;
+            -webkit-appearance: none;
+        }
+        input{
+            font-family: "微软雅黑";
+            font-size: .9rem;
+            position: relative;
+            border: none;
+            text-indent: 0.8rem;
+            width: 100%;
+            height: 70%;
+        }
+        span.icon-camera{
+            position: absolute;
+            top: .4rem;
+            right: .3rem;
+            font-size: 1.1rem;
+            z-index: 10;
+            color: red;
+        }
+    }
+    .header-mess{
+        margin-right: -1.8%;
+    }
+    .header-hb{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        font-size: .6rem;
+        color: white;
+        img{
+            position: relative;
+            left: 10%;
+            display: block;
+            width: 80%;
+            height: 80%;
+        }
+        .icon-label{
+            position: relative;
+            top: -0.2rem;
+        }
+    }
+}
+//轮播banner
+section.banner-container{
+    position: relative;
+    margin-top: 2.9rem;
+    width: 100%;
+    height: 6.85rem;
+    overflow: hidden;
+    ul{
+        width: 100%;
+        li{
+            width: 100%;
+            a{
+                width: 100%;
+                display: block;
+                img{
+                    width: 100%;
+                    display: block;
+                }
+            }
+        }
+    }
+    .mui-slider-indicator{
+        display: block;
+        text-align: right;
+        padding-right: 1rem;
+        bottom: 0.2rem;
+    }
+    .mui-indicator{
+        width: 0.35rem;
+        height: 0.35rem;
+        background: rgba(255,255,255,0.5);
+        box-shadow: none;
+        margin: 1px 0.05rem;       
+    }
+    .mui-active.mui-indicator
+    {
+        background: #FF5000;
+    }
+}
+//图片链接
+section.tm-link{
+    width: 100%;
+    a{
+        width: 100%;
+        img{
+            width: 100%;
+            display: block;
+        }  
+    }  
+}
+//导航
+section.nav-link{
+    width: 100%;
+    a{
+        padding-top: 2%;
+        margin: 0 1%;
+        display: inline-block;
+        width: 17%;
+        text-align: center;
+        img{
+           display: block;
+           width: 100%; 
+        }
+        span{
+            font-size: .7rem;
+            color: #757575;
+        }
+    }
+}
+//淘宝头条
+section.tb-tops{
+    width: 100%;
+    border-top: 1px solid #EEEEEE;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 0.3rem 0 0 0;
+    .tb-tops-img{
+        display: inline-block;
+        width: 5rem;
+        height: 2.7rem;
+        background: url(../img/home-tb-top.png)no-repeat 1.22rem 0.3rem;
+        background-size: 2.7rem 2.4rem;
+    }
+    .tb-top-message{
+        border-left: 1px solid #EEEEEE;
+        display: inline-block;
+        width: 16.5rem;
+        a{
+            position: relative;
+            width: 100%;
+            color: black;
+            line-height: .8rem;
+            i{
+                position: relative;
+                top: -0.15rem;
+                font-size: .5rem;
+                display: inline-block;
+                margin: 0 0.5rem;
+                color: red;
+                padding:0 0.1rem;
+                border: 1px solid red;
+                border-radius: 10%;
+                font-style: normal; 
+                
+            }
+            span{
+                display: inline-block;
+                width: 80%;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                font-size: .8rem;
+            }
+        }
+    }
+}
+//灰色分割
+div.space{
+    width: 100%;
+    height: 0.3rem;
+    background: #F4F4F4;
+    border-top: 2px solid #E9E9E9;
+}
+//淘抢购
+section.qg{
+    width: 100%;
+    &:before,&:after{
+       clear: both;
+       content: '';
+       display: table; 
+    }
+    a{
+        float:left;
+        width: 50%;
+        img{
+            width: 100%;
+            display: block;
+        }
+    }
+}
+//超实惠 天猫必逛 特色好货 热门市场
+section.list{
+    width: 100%;
+    .list-title{
+        position: relative;
+        width: 100%;
+        text-align: center;
+        line-height: 2rem;
+        font-size: 0.78rem;
+        color: rgb(255, 53, 14);
+        border-bottom: 1px solid #EEEEEE;
+        a{
+            position: absolute;
+            top: 0;
+            right: 0;
+            display: block;
+            color: #757575;
+            float: right;
+            font-size: 0.7rem;
+            padding-right: 1.5rem;
+            background-image: url(../img/home-hot-icon.png);
+            background-repeat: no-repeat;
+            background-position: 1.8rem 0.68rem;
+            background-size: 0.3rem 0.6rem;
+        }
+        img{
+            position: relative;
+            top: 0.3rem;
+            display: inline-block;
+            width: 1.2rem;
+            height: 1.2rem;
+            margin-right: 0.3rem;
+        }
+    }
+    .list-items{
+        width: 100%;
+        &:before,&:after{
+            clear: both;
+            content: '';
+            display: table; 
+        }
+        a{
+            float: left;
+            border-bottom: 1px solid #EEEEEE;
+            img{
+                display: block;
+                width: 100%;
+                height: 6.313rem;
+            }
+        }
+        a.right-boder{
+           border-right: 1px solid #EEEEEE; 
+        }
+        a.lg{
+            width: 50%;
+        }
+        a.md{
+            width: 40%;
+        }
+        a.md1{
+            width: 25%;
+        }
+        a.sm{
+            width: 20%;
+        }
+    }
+}
+//更多服务
+section.moreservice{
+    width: 100%;
+    a{
+        display: block;
+        color: #757575;
+        margin: 0.5rem 0.6rem;
+        height: 1.2rem;
+        .more-icon{
+            display: inline-block;
+            height: 100%;
+            img{
+                height: 100%;
+                display: inline-block;
+            }
+        }
+        .more-text{
+            display: inline-block;
+            float: right;
+            clear: right;
+            font-size: 0.8rem;
+            padding-right: 0.8rem;
+            background-image: url(../img/home-hot-icon.png);
+            background-repeat: no-repeat;
+            background-position: 3.5rem 0.3rem;
+            background-size: 0.3rem 0.6rem;
+        }
+    }
+}
+//广告
+section.advertise{
+    width: 100%;
+    img{
+        width: 100%;
+        display: block;
+    }
+}
+//淘宝直播
+section.live{
+    width: 100%;
+    ul{
+        width: 100%;
+        &:before,&:after{
+            clear: both;
+            content: '';
+            display: table;
+        }
+        li{
+            float: left;
+            width: 30%;
+            margin-left: 2.5%;
+            a{
+                display: block;
+                margin-top: 0.2rem;
+                width: 100%;
+                img{
+                    width: 100%;
+                    display: block;
+                }
+            }
+        }
+    }
+    span{
+        display: block;
+        width: 92%;
+        margin-top: 0.2rem;
+        margin-left: 4%;
+        color: #404040;
+        font-size: .8rem;
+        line-height: 2.6rem;
+        border-top: 1px solid #EEEEEE;
+    }
+}
+//每日好店 淘部落 猜你喜欢
+section.list1{
+    width: 100%;
+    background: #F4F4F4;
+    .list1-title{
+        display: block;
+        width: 100%;
+        height: 3.7rem;
+        font-size: .8rem;
+        color: #242424;
+        overflow: hidden;
+        text-align: center;
+        .title-top{
+            margin-top: 0.4rem;
+            span{
+                position: relative;
+                img{
+                    position: relative;
+                    top: 0.3rem;
+                    display: inline-block;
+                    width: 1.3rem;
+                    height: 1.3rem;
+                    margin-right: 0.3rem;     
+                }
+            }           
+        }
+        p{
+            font-size: 0.7rem;
+            line-height: 1.5rem;
+            color: #797979;
+        }
+        
+    }
+    .list1-items{
+        width: 100%;
+        &:before,&:after{
+            clear: both;
+            content: '';
+            display: table;
+        } 
+        li{
+            width: 49.5%;
+            background: #FFFFFF;
+        }
+        li.fleft{
+            float: left;  
+        }
+        li.fright{
+            float: right;  
+        }
+        li.mbottom{
+            margin-bottom: 0.2rem;
+        }
+    }  
+}
+//每日好店
+.good{
+    .list1-items{
+        width: 100%;
+        li{           
+            a{
+                width: 100%;
+                display: block;
+                &:before,&:after{
+                    clear: both;
+                    content: '';
+                    display: table;
+                }
+                img{
+                    vertical-align: top;
+                    display: block;
+                }
+                img.big{
+                    float: left;
+                    width: 66.666666%;
+                }
+                img.sm{
+                    float: right;
+                    width: 33.333333%;
+                    height: 50%;
+                }
+            }
+            .item-title{
+                text-indent: -0.2rem;
+                line-height: 1.8rem;
+                display: block;
+                color: #404040;
+            }
+            .number{
+                display: block;
+                text-indent: 0.5rem;
+                font-size: 0.68rem;
+                color: #8C8C8C;
+            }
+        }
+    }      
+}
+//淘部落
+.taobl{
+    .list1-items{
+        li{
+            width: 49.5%;
+            a{
+                display: block;
+                width: 100%;
+                img{
+                    width: 100%;
+                    display: block;
+                }
+            }
+        }
+    }
+}
+//猜你喜欢
+.love{
+    .list1-items{
+        li{
+            a{
+                position: relative;
+                font-size: .75rem;
+                color: #000000;
+                width: 100%;
+                display: block;
+                img{
+                    display: block;
+                    width: 100%;
+                    height: 10.84rem;
+                }
+                p{
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;//设置块级元素显示的文本行数，必须结合-webkit-box、-webkit-box-orient使用
+                    -webkit-box-orient: vertical;
+                    height: 2.2rem;
+                    margin:0.3rem 0.7rem;
+                    line-height: 1.5em!important;
+                    word-break: break-all;
+                    overflow: hidden;
+                    white-space: normal;
+                    text-overflow: ellipsis;
+                    font-size: .75rem;;
+                }
+                span{
+                    font-family: arial;
+                    display: inline-block;
+                    text-indent: .6rem;
+                    color: #FF5200;
+                    font-size: 1.1rem;
+                    margin-bottom: 0.2rem;
+                    i{
+                        font-family: 黑体;
+                        font-style: normal;
+                        font-size: 0.9rem;
+                        margin-right: 0.3rem;
+                    }
+                    
+                }
+                .paynum{
+                    position: relative;
+                    top: 0.2rem;
+                    font-family: "微软雅黑";
+                    font-size: .7rem;
+                    color: #878787;
+                    float: right;
+                    margin-right: 0.7rem;
+                }
+            }
+            
+        }
+    }
+}
+//底部
+.bottom{
+    border-top: 1px solid #EEEEEE;
+    text-align: center;
+    line-height: 3rem;
+    color: #8f8f94;
+}

@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="../css/icons-extra.css" />
+    	<link rel="stylesheet" type="text/css" href="../css/iconfont.css"/>
+    	<link rel="stylesheet" href="../css/commen.css" type="text/css"/>
+		<link rel="stylesheet" type="text/css" href="../css/question.css"/>
+    	<script src="../js/commen.js"></script>
+	</head>
+
+	<body>
+		<div class="mui-content">
+		 	<header>
+		    	<div class="header-photo">
+		    		<img src="../img/mine-s1photo.png"/>
+		    	</div>
+		    	<form action="#" method="post">
+		    		<span class="iconfont icon-search"></span>
+		    		<input id="inputopen" type="text" value="" placeholder="购物相关经验，这里都能找到~"/>	    		
+		    	</form>
+		    	<!--<div class="header-mess mui-pull-right">
+		    		<span class="iconfont icon-message"></span>
+		    	</div>		-->    	
+		    </header>
+		    <section class="img">
+		    	<img src="../img/question1.png"/>
+		    	<img src="../img/question2.png"/>
+		    </section>
+		</div>
+		<script src="../js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init();
+			var open = document.getElementById("inputopen");
+			open.addEventListener('tap',function(){
+				mui.openWindow({
+					id:"select2",
+					url:'question_select.html'
+				});
+			})
+		</script>
+	</body>
+
+</html>
